@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Courierprime";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    border: 1px double black;
+    border-width: 4px;
+}
+@font-face {
+    font-family: "Courierprime";
+    src: url(./CourierPrime-Regular.ttf);
+}
+li {
+    display: inline;
+}
+.the {
+    font-size: 2.65rem;
+    margin-top: 40px;
+    line-height: 5px;
+}
+h1 {
+    font-size: 5.65rem;
+}
+.specialist {
+    font-size: 3.10rem;
+    line-height: 0px;
+    margin-bottom: 37px;
+}

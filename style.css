@@ -14,6 +14,7 @@ html {
 body {
     border: 1px double black;
     border-width: 4px;
+    margin: 10px;
 }
 @font-face {
     font-family: "Courierprime";
@@ -21,17 +22,49 @@ body {
 }
 li {
     display: inline;
+    font-size: 2.5rem;
+    padding-left:  3.75rem;
+    padding-right: 3.75rem;
+}
+
+a {
+    color: #000000;
+}
+a:hover{
+    color: #ff4500;
+}
+ul{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+hr {
+    width: 90rem;
+    border-width: 1.85px;
+    border-color: #000000;
+
 }
 .the {
-    font-size: 2.65rem;
+    font-size: 3rem;
     margin-top: 40px;
     line-height: 5px;
 }
 h1 {
-    font-size: 5.65rem;
+    font-size: 6rem;
 }
 .specialist {
-    font-size: 3.10rem;
+    font-size: 3.4rem;
     line-height: 0px;
     margin-bottom: 37px;
+}
+img{
+    width: 900px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.para {
+    font-size: 2.25rem;
+}
+.parah{
+    font-size: 2.25rem;
+    margin-bottom: 25px;
 }
